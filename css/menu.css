@@ -1,0 +1,138 @@
+.header__icon-logo{
+  width: 3.125rem;
+}
+.header__title {
+  text-decoration: none;
+  font-size: 3.75rem;
+  font-weight: 300;
+  color: #393939;
+}
+.nav-list{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-left: auto;
+}
+ul.nav-list{
+  list-style-type: none;
+  text-decoration: none;
+}
+#header__nav-items-nitro-blue{
+  color: #5BACC3;
+}
+.sub-nav{
+  display: inline-block;
+}
+.header__nav{
+  display: flex;
+  background-color: #FFF0ED;
+}
+.header__nav-items{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  padding: 1.25rem;
+  margin: 1.25rem;
+}
+a.header__nav-items{
+  color: #393939;
+}
+.menu{
+  background-image: url(../assets/images/coffee-circle.jpg);
+  width: 100%;
+  height: 43.75rem;
+  background-position: center;
+  background-size: cover;
+}
+.menu__container{
+  width: 18.75rem;
+  height: 12.5rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 5px solid #5BACC3;
+  position: relative;
+  bottom: 10px;
+  left: -9px;
+}
+.menu__box{
+  width: 18.75rem;
+  height: 12.5rem;
+  background-color: #393939;
+  position: relative;
+  bottom: -250px;
+  left: 550px;
+}
+.menu__container h1{
+  font-weight: 300;
+  color: white;
+  font-size: 3.75rem;
+  text-align: center;
+  
+}
+.sub-nav{
+  width: 100%;
+  background-color: #393939;
+  text-align: center;
+}
+.sub-nav__items{
+  color: white;
+  text-decoration: none;
+  font-size: 1.3125rem;
+  font-weight: 400;
+}
+.sub-navlist{
+  display: flex;
+  align-items: center;
+  padding: 1.25rem;
+  margin: 1.25rem;
+  list-style-type: none;
+}
+a.sub-nav__items{
+  border-left: solid #5BACC3 4px;
+  padding: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+ul.sub-navlist{
+  justify-content: center;
+}
+.menu__main-title{
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-align: center;
+  padding: 1.25rem;
+}
+.menu__sub-title{
+  font-size: 2.0625rem;
+  font-weight: 300;
+  text-align: center;
+}
+.price{
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #5BACC3;
+  text-align: center;
+}
+.menu__product-description{
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+}
+/* can width and height be px? */
+.menu__background-color--nitro-pink{
+  background-color: #FFF0ED;
+}
+.menu__background-color--light-gray{
+  background-color: #F7F7F7;
+}
+.container__products{
+  padding: 20px;
+}

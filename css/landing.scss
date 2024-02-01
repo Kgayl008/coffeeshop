@@ -1,0 +1,11 @@
+@keyframes db {
+    0%  {background-color: #393939;}
+    25% {background-color: #5BACC3;}
+    50%  {background-color: #393939;}
+    100%  {background-color: #393939;}
+    
+}
+.discount-banner {
+    animation: db;
+    animation-duration: 2.5s;
+}
